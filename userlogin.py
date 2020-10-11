@@ -106,10 +106,6 @@ class UserLogin:
         
 
 def main():
-    user = UserLogin('Billy','123123')
-    encrytpass = user.encrypt_password(user.password)
-    user.check_encrypted_password('1223',user.hashed)
-    user.check_password('Herald','123123')
-    user.add_user()
+    user = UserLogin('Example','123123'
 if __name__ == '__main__':
     main()
